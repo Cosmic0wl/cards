@@ -6,50 +6,85 @@
     <title>Cards</title>
     <link href="bootstrap-4.3.1-dist/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
-    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row d-flex justify-content-between">
-        	<div class= "col-lg-1 alert alert-primary">
-        		card one
-        	</div>
-        	<div class= "col-lg-1 alert alert-primary">
-        		card two
-        	</div>
-        	<div class= "col-lg-1 alert alert-primary">
-        		card three
-        	</div>
-        	<div class= "col-lg-1 alert alert-primary">
-        		card four
-        	</div>
-        	<div class= "col-lg-1 alert alert-primary">
-        		card five
-        	</div>
-        	<div class= "col-lg-1 alert alert-primary">
-        		card six
-        	</div>
-        	<div class= "col-lg-1 alert alert-primary">
-        		card seven
-        	</div>
-        	<div class= "col-lg-1 alert alert-primary">
-        		card eight
-        	</div>
-        	<div class= "col-lg-1 alert alert-primary">
-        		card nine
-        	</div>
-        	<div class= "col-lg-1 alert alert-primary">
-        		card ten
-        	</div>
+    <div class="container p-4">
+        <div class="row d-flex justify-content-between p-4">
+            <div id="#draggable" class="col-lg-2 alert alert-danger ui-widget-content">
+                <p>Computer's Cards</p>
+            </div>
+            <div class="col-lg-1 alert alert-primary droppable">
+                <p class="computer hidden"></p>
+            </div>
+            <div class="col-lg-1 alert alert-primary droppable">
+                <p class="computer hidden"></p>
+            </div>
+            <div class="col-lg-1 alert alert-primary droppable">
+                <p class="computer hidden"></p>
+            </div>
+            <div class="col-lg-1 alert alert-primary droppable">
+                <p class="computer hidden"></p>
+            </div>
+            <div class="col-lg-1 alert alert-primary droppable">
+                <p class="computer hidden"></p>
+            </div>
+            <div class="col-lg-1 alert alert-primary droppable">
+                <p class="computer hidden"></p>
+            </div>
+            <div class="col-lg-1 alert alert-primary droppable">
+                <p class="computer hidden"></p>
+            </div>
+            <div class="col-lg-1 alert alert-primary droppable">
+                <p class="computer hidden"></p>
+            </div>
+            <div class="col-lg-1 alert alert-primary droppable">
+                <p class="computer hidden"></p>
+            </div>
+            <div class="col-lg-1 alert alert-primary droppable">
+                <p class="computer hidden"></p>
+            </div>
         </div>
-        <div class="row">
-
-        	</div>
+        <!-- second row -->
+        <div class="row d-flex justify-content-between p-4">
+            <div class="col-lg-2 alert alert-danger">
+                <p>Your <br> Cards</p>
+            </div>
+            <div id="one" class="col-lg-1 alert alert-primary draggable">
+                <p class="player"></p>
+            </div>
+            <div id="two" class="col-lg-1 alert alert-primary draggable">
+                <p class="player"></p>
+            </div>
+            <div id="three" class="col-lg-1 alert alert-primary draggable">
+                <p class="player"></p>
+            </div>
+            <div id="four" class="col-lg-1 alert alert-primary draggable">
+                <p class="player"></p>
+            </div>
+            <div id="five" class="col-lg-1 alert alert-primary draggable">
+                <p class="player"></p>
+            </div>
+            <div id="six" class="col-lg-1 alert alert-primary draggable">
+                <p class="player"></p>
+            </div>
+            <div id="seven" class="col-lg-1 alert alert-primary draggable">
+                <p class="player"></p>
+            </div>
+            <div id="eight" class="col-lg-1 alert alert-primary draggable">
+                <p class="player"></p>
+            </div>
+            <div id="nine" class="col-lg-1 alert alert-primary draggable">
+                <p class="player"></p>
+            </div>
+            <div id="ten" class="col-lg-1 alert alert-primary draggable">
+                <p class="player"></p>
+            </div>
         </div>
+        <!-- end of container -->
     </div>
-
-
     <!-- script -->
     <script src="script.js"></script>
 </body>
