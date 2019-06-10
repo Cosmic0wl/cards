@@ -1,0 +1,43 @@
+/* color palette */
+
+$yellow: #fffbbe;
+$lilac: #eec1ea;
+$lavender: #be97dc;
+$purple: #a374d5;
+$darkpurple: #553c8b;
+$white: #f4f3f3;
+
+body {
+	background-color: $lavender;
+}
+
+
+.hidden {
+	display: none;
+}
+
+.draggable, .droppable {
+	height: 150px;
+}
+
+.background {
+	background-color: $darkpurple;
+}
+
+.title {
+	background-color: $yellow;
+}
+
+.white {
+	background-color: $white;
+}
+
+
+.yellow {
+	background-color: $yellow;
+}
+
+.round {
+	width: 50px;
+	height: 50px;
+}

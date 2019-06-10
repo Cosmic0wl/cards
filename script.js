@@ -39,17 +39,16 @@ $(document).ready(function() {
             	console.log(playerCard);
             	console.log(computerCard);
                 if (playerCard == computerCard) {
-                    $(this).addClass("alert-success").find("p").removeClass("hidden");
-                    $(ui.draggable).removeClass("alert-dark").addClass("alert-success");
-                    var position = $(this).position();
-                    console.log(position);
+                    $(this).removeClass("white").addClass("alert-success").find("p").removeClass("hidden");
+                    $(ui.draggable).removeClass("alert-dark").removeClass("white").addClass("alert-success");
                     $(this).css({"position":"relative"});
                     $(ui.draggable).css({"position":"absolute"});
+                    $("#output").removeClass("title").removeClass("alert-danger").addClass("alert-success").find("p").text("Success!");
                 } else {
-                	$(this).addClass("alert-danger").find("p").removeClass("hidden");
-                    $(ui.draggable).addClass("alert-dark");
+                	// $(this).addClass("alert-danger").find("p").removeClass("hidden");
+                    $(ui.draggable).removeClass("white").addClass("alert-dark");
                     $(ui.draggable).css({"top":"0", "left":"0"});
-                    
+                    $("#output").removeClass("title").addClass("alert-danger").find("p").text("Try again!");
                 }
 
             }

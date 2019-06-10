@@ -1,3 +1,27 @@
+/* color palette */
+body {
+  background-color: #be97dc; }
+
 .hidden {
-	display: none;
-}
+  display: none; }
+
+.draggable, .droppable {
+  height: 150px; }
+
+.background {
+  background-color: #553c8b; }
+
+.title {
+  background-color: #fffbbe; }
+
+.white {
+  background-color: #f4f3f3; }
+
+.yellow {
+  background-color: #fffbbe; }
+
+.round {
+  width: 50px;
+  height: 50px; }
+
+/*# sourceMappingURL=style.css.map */
